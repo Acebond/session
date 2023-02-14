@@ -2,8 +2,8 @@ package session
 
 import (
 	"context"
+	"crypto/rand"
 	"encoding/base64"
-	"math/rand"
 	"net/http"
 	"sync"
 	"time"
